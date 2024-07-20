@@ -108,3 +108,23 @@ nav{
 
 
 
+
+
+
+
+
+
+
+.brightness{
+    width: 10%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 7vh; */
+    font-size: 35px;
+}
+.brightness-dark{
+    display: none;
+}
+
