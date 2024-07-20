@@ -74,6 +74,7 @@ nav{
     /* height: 7vh; */
     font-size: 20px;
 }
+
 .menu-links{
     width: 85%;
     /* border: 1px solid green; */
@@ -91,6 +92,13 @@ nav{
     justify-content: center;
     /* height: 7vh; */
     font-size: 35px;
+}
+.brightness button{
+    border-style: none;
+    background: none;
+}
+.brightness-light{
+    display: none;
 }
 .menu a{
     text-decoration: none;

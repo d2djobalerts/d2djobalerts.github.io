@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 .main{
     width: 100vw;
@@ -30,9 +35,6 @@ section{
     width: 30%;
     border: 1px solid green;
 }
-
-
-
 
 .company-logo{
     /* border: 1px solid black; */
