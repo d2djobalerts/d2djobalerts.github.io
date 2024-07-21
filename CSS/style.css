@@ -315,7 +315,8 @@ footer{
     }
 } */
 
-@media only screen and (max-width: 650px) and (min-width: 350px){
+/* @media only screen and (max-width: 650px) and (min-width: 350px){ */
+@media only screen and (max-width: 800px) and (min-width: 350px){
     main .main-left section{
         display: flex;
         flex-direction: column;
