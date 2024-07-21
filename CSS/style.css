@@ -146,8 +146,11 @@ section{
 }
 .main-right{
     width: 30%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    background-color: white;
+    color: black;
 }
+
 
 .company-logo{
     /* border: 1px solid black; */
@@ -175,7 +178,8 @@ section{
     font-weight: 500;
     font-style: normal;
     font-size: 25px;
-    padding: 1% 0;
+    padding: 1% 1%;
+    color: #3D52A0;
   }
 
   .details{
@@ -231,6 +235,24 @@ section{
     font-weight: 500;
     font-style: normal;
 }
+
+
+
+.recent-job-links{
+    padding: 2% 2% ;
+    border-bottom: 1px solid rgba(88, 87, 87, 0.952);
+}
+
+.recent-job-links a{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 500;
+    font-style: normal;
+}
+
+
 
 
 footer{
