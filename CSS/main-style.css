@@ -52,7 +52,7 @@ section{
 }
 
 .webpage-links{
-    width: 500px;
+    width: 90%;
     background-color: #4327e2;
     height: 50px;
     border-radius: 40px;
@@ -62,7 +62,7 @@ section{
 .webpage-links button{
     /* margin: 10px; */
     /* border: 1px solid black; */
-    width: 500px;
+    width: 90%;
     height: 40px;
     background: none;
     border-style: none;
@@ -72,6 +72,85 @@ section{
 .webpage-links button:hover{
     cursor: pointer;
 }
+
+
+
+
+@media only screen and (max-width: 550px) {
+    section{
+        width: 100vw;
+    }
+    .webpage-links{
+        width: 90%;
+    }
+    .webpage-links button{
+        /* margin: 10px; */
+        /* border: 1px solid black; */
+        width: 90%;
+    }
+    .webpage-links button:hover{
+        cursor: pointer;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    section{
+        width: 100vw;
+    }
+    .webpage-links{
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+    .webpage-links button{
+        /* margin: 10px; */
+        /* border: 1px solid black; */
+        
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+    .webpage-links button:hover{
+        cursor: pointer;
+    }
+    .webpage-links a{
+        text-decoration: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
