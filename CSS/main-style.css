@@ -68,7 +68,8 @@ section{
     height: 40px;
     background: none;
     /* border: 1px solid white; */
-    color: #4327e2;
+    /* color: #4327e2; */
+    color: white;
     font-family: "Inter", sans-serif;
     border-radius: 40px;
     border-style: none;
