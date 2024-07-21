@@ -137,18 +137,21 @@ section{
     border-bottom: 1px solid rgba(255, 166, 0, 0.284);
 }
 
+
 .main-left{
     width: 68%;
     /* border: 1px solid green;   */
     display: flex;
     flex-direction: column-reverse;
     background-color: white;
+    border-top: 3px solid black;
 }
 .main-right{
     width: 30%;
     /* border: 1px solid green; */
     background-color: white;
     color: black;
+    border-top: 3px solid black;
 }
 
 
