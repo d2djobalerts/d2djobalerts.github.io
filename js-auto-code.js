@@ -6,6 +6,49 @@ const socialMediaLinks = {
 
 
 const obj = {
+
+    Accenture : {
+        jobTitle : 'Apply Now | Accenture is hiring for Data Science Analytics Associate  !',
+        imgSrc : 'https://d2djobalerts.github.io/images/accenture-logo.png',
+        imgSrcTelegram : 'https://d2djobalerts.github.io/images/Telegram-join-image.png',
+        imgSrcWhatsapp : 'https://d2djobalerts.github.io/images/Whatsapp-join-image.png',
+        description : 'Accenture is looking for Data Science Analytics Associate with any Graduate as qualification. The complete Accenture like qualification, skills, etc are provided below.',
+        companyName : 'Accenture',
+        role : 'Data Science Analytics Associate',
+        location : 'Bengaluru, India',
+        experience : 'Freshers/Experienced',
+        qualification : 'any Graduate',
+        
+        responsibilities : {
+            1 : 'Compile and analyze data on New Business, Underwriting (UW), and Licensing & Compliance ',
+            2  : 'Create daily dashboards to monitor application submissions and processing times',
+            3  : 'Develop SQL queries to extract data from cloud services, Utilize Power BI and Excel macros to create data dashboards and support reporting processes',
+            4  : 'Analyze and improve VBA scripts in MS Access',
+            5 : 'Strong problem-solving skills for data cleansing and bug fixing and Effective communication skills for understanding client requirements'
+        },
+    
+        skillsEligibility : {
+            1 : "Understand client requirements and create SQL queries to extract data from cloud services.",
+            2 : 'Create data dashboards using Power BI and Develop and support reporting processes using advanced Excel.',
+            3 : 'Analyze, identify, and fix bugs in VBA (MS Access)',
+            4 : 'Knowledge of R programming is beneficial.',
+            5 : 'Proficient in VBA (Visual Basic for Applications), SQL, advanced Excel, MS Access, and Power BI.',
+            6 : 'Familiarity with R language is a plus',
+        },
+    
+        howToApply : {
+            1 : 'Read Job Description',
+            2 : 'Click on below APPLY LINK',
+            3 : 'Redirects to official page',
+            4 : 'Fill formand APPLY'
+        },
+    
+        jobApplyURL : 'https://www.accenture.com/in-en/careers/jobdetails?src=LINKEDINJP&id=AIOC-S01523713_en#accordion-457aff5aa2-item-959cb67f76',
+        telegramChannelURL : socialMediaLinks.telegram,
+        whatsAppChannelURL : socialMediaLinks.whatsapp,
+        imstagramChannelURL : `${socialMediaLinks.insta}`,
+    },
+    
     Google : {
         jobTitle : 'Apply Now | Google is hiring for Data Analyst  !',
         imgSrc : 'https://d2djobalerts.github.io/images/google-logo.jpg',
