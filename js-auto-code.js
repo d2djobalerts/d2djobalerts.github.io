@@ -1,11 +1,60 @@
+const socialMediaLinks = {
+    telegram : '',
+    whatsapp : '',
+    insta : 'insagram',
+}
+
 
 const obj = {
+    Google : {
+        jobTitle : 'Apply Now | Google is hiring for Data Analyst  !',
+        imgSrc : 'https://d2djobalerts.github.io/images/google-logo.png',
+        imgSrcTelegram : 'https://d2djobalerts.github.io/images/Telegram-join-image.png',
+        imgSrcWhatsapp : 'https://d2djobalerts.github.io/images/Whatsapp-join-image.png',
+        description : 'Google is looking for Data Analyst with bachelors/Masters Degree as qualification. The complete Googlemation like qualification, skills, etc are provided below.',
+        companyName : 'Google',
+        role : 'Data Analyst',
+        location : 'Hyderbad, India',
+        experience : 'Experienced',
+        qualification : 'Bachelors degree/Masters Degree',
+        
+        responsibilities : {
+            1 : 'Design, develop, and maintain Trust and Safety access and security systems to meet security goals while optimizing operational efficiency.',
+            2  : 'Implement integrations aligning business objectives with security systems, executing strategies to enhance system effectiveness.',
+            3  : 'Lead projects involving diverse stakeholders, tight deadlines, and critical organizational impact, adapting to evolving conditions.',
+            4  : 'Possess domain expertise in data sources, access methods, authentication, and relevant products within the process area.',
+
+        },
+    
+        skillsEligibility : {
+            1 : "Bachelor's degree or equivalent experience.",
+            2 : '2 years in data analytics, Trust & Safety, policy, cybersecurity, or related fields.',
+            3 : 'Skills in SQL, dashboard building, ETL (Extract, Transform, Load), statistical modeling, and scripting (e.g., Python).',
+            4 : 'Experience using data to derive insights and recommendations.',
+            5 : 'Preferred qualifications:',
+            6 : 'Preferred qualifications are detailedon google career page click on below apply link',
+        },
+    
+        howToApply : {
+            1 : 'Read Job Description',
+            2 : 'Click on below APPLY LINK',
+            3 : 'Redirects to official page',
+            4 : 'Fill formand APPLY'
+        },
+    
+        jobApplyURL : 'https://www.google.com/about/careers/applications/jobs/results/135169036483732166-data-analyst',
+        telegramChannelURL : socialMediaLinks.telegram,
+        whatsAppChannelURL : socialMediaLinks.whatsapp,
+        imstagramChannelURL : `${socialMediaLinks.insta}`,
+    },
+
+
     microsoft : {
         jobTitle : 'Apply Now | microsoft is hiring for Software Quality Engineer  !',
         imgSrc : 'https://d2djobalerts.github.io/images/serviceNow-logo.png',
         imgSrcTelegram : 'https://d2djobalerts.github.io/images/Telegram-join-image.png',
         imgSrcWhatsapp : 'https://d2djobalerts.github.io/images/Whatsapp-join-image.png',
-        description : 'Microsoft is looking for Software Quality Engineer with bachelors degree as qualification. The complete information like qualification, skills, etc are provided below.',
+        description : 'Microsoft is looking for Software Quality Engineer with bachelors degree as qualification. The complete Googlemation like qualification, skills, etc are provided below.',
         companyName : 'Microsoft',
         role : '',
         location : '',
@@ -49,7 +98,7 @@ const obj = {
         imgSrc : 'https://d2djobalerts.github.io/images/serviceNow-logo.png',
         imgSrcTelegram : 'https://d2djobalerts.github.io/images/Telegram-join-image.png',
         imgSrcWhatsapp : 'https://d2djobalerts.github.io/images/Whatsapp-join-image.png',
-        description : 'ServiceNow is looking for Software Quality Engineer with bachelors degree as qualification. The complete information like qualification, skills, etc are provided below.',
+        description : 'ServiceNow is looking for Software Quality Engineer with bachelors degree as qualification. The complete Googlemation like qualification, skills, etc are provided below.',
         companyName : 'ServiceNow',
         role : '',
         location : '',
@@ -90,6 +139,7 @@ const obj = {
 
 const value = document.querySelector('#companyNameHtml').textContent;
 console.log(value);
+document.querySelector('#companyNameHtml').style.display = 'none';
 // const objname = Object.keys(obj);
 // console.log(objname.toString());
 
@@ -301,7 +351,7 @@ function htmlCodeExecute(value, o){
 //     imgSrc : 'https://d2djobalerts.github.io/images/serviceNow-logo.png',
 //     imgSrcTelegram : 'https://d2djobalerts.github.io/images/Telegram-join-image.png',
 //     imgSrcWhatsapp : 'https://d2djobalerts.github.io/images/Whatsapp-join-image.png',
-//     description : 'ServiceNow is looking for Software Quality Engineer with bachelors degree as qualification. The complete information like qualification, skills, etc are provided below.',
+//     description : 'ServiceNow is looking for Software Quality Engineer with bachelors degree as qualification. The complete Googlemation like qualification, skills, etc are provided below.',
 //     companyName : 'ServiceNow',
 //     role : '',
 //     location : '',
