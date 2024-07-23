@@ -8,7 +8,7 @@ const socialMediaLinks = {
 const obj = {
     Google : {
         jobTitle : 'Apply Now | Google is hiring for Data Analyst  !',
-        imgSrc : 'https://d2djobalerts.github.io/images/google-logo.png',
+        imgSrc : 'https://d2djobalerts.github.io/images/google-logo.jpg',
         imgSrcTelegram : 'https://d2djobalerts.github.io/images/Telegram-join-image.png',
         imgSrcWhatsapp : 'https://d2djobalerts.github.io/images/Whatsapp-join-image.png',
         description : 'Google is looking for Data Analyst with bachelors/Masters Degree as qualification. The complete Googlemation like qualification, skills, etc are provided below.',
