@@ -7,6 +7,53 @@ const socialMediaLinks = {
 
 const obj = {
 
+    wiproDeveloper:{
+        jobTitle: 'APPLY NOW | Wipro is hiring for developer',
+        imgSrc: 'https://d2djobalerts.github.io/images/wipro-logo.png',
+        imgSrcTelegram: '',
+        imgSrcWhatsapp: '',
+        description: 'How about this revision? "The purpose of this role is to design, test, and maintain software programs for operating systems or applications that will be deployed at the client end, ensuring they meet 100% quality assurance standards."',
+        companyName: 'wipro',
+        role: 'Developer',
+        location: 'Hyderabad, chennai, banglore, pune',
+        experience: 'Fresher /Experienced',
+        qualification: 'Bachelor/Masters Degree',
+        responsibilities: {
+          1: 'Develop software solutions by analyzing information needs, system flows, data usage, and work processes.',
+          2: 'Investigate problem areas and follow the software development life cycle.',
+          3: 'Facilitate root cause analysis of system issues and problem statements.',
+          4: 'Identify opportunities to enhance system performance and availability.',
+          5: 'Analyze client requirements and translate them into feasible designs.',
+          6: 'Collaborate with functional teams or systems analysts to conduct detailed investigations into software requirements.',
+          7: 'Consult with project managers to gather information on software capabilities.',
+          
+        },
+        skillsEligibility: {
+          1: 'Skilled in formulation and prioritization.',
+          2: 'Ability to manage complexity.',
+          3: 'Passion for achieving results.',
+          4: 'Commitment to execution excellence.',
+          5: 'Innovative mindset.',
+          
+        },
+        howToApply: {
+          1: 'Read Job Description',
+          2: 'Click on below APPLY LINK',
+          3: 'Redirects to official page',
+          4: 'Fill formand APPLY'
+        },
+        jobApplyURL: {
+          1: 'https://careers.wipro.com/careers-home/jobs/3087800/job',
+          2: 'https://careers.wipro.com/opportunities/jobs/3091483?lang=en-us&previousLocale=en-US',
+          
+        },
+        telegramChannelURL: 'undefined',
+        whatsAppChannelURL: 'undefined',
+        imstagramChannelURL: 'undefined',
+        
+      },
+      
+
     Accenture : {
         jobTitle : 'Apply Now | Accenture is hiring for Data Science Analytics Associate  !',
         imgSrc : 'https://d2djobalerts.github.io/images/accenture-logo.png',
