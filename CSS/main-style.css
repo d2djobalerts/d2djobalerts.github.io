@@ -54,7 +54,8 @@ section{
 
 .webpage-links{
     width: 90%;
-    background-color: rgb(175, 16, 149);
+    background-color: whitesmoke;
+    /* background-color: rgb(175, 16, 149); */
     height: 50px;
     border-radius: 40px;
     margin:  10px 0;
@@ -70,10 +71,12 @@ section{
     background: none;
     /* border: 1px solid white; */
     /* color: #4327e2; */
-    color: white;
+    /* color: white; */
+    color: blue;
     font-family: "Inter", sans-serif;
     border-radius: 40px;
     border-style: none;
+    font-weight: 500;
 }
 .webpage-links a{
     /* border: 1px solid gold; */
@@ -163,7 +166,7 @@ section{
     .webpage-links button:hover{
         cursor: pointer;
     }
-  }
+}
 
   @media only screen and (max-width: 450px) {
     section{
@@ -189,16 +192,20 @@ section{
         text-decoration: none;
         height: 60px;
     }
-  }
-
+}
+/* 
   .webpage-links-d2djobalerts{
     background:none;
+    color: white; */
+
+
+
+
+.webpage-links-d2djobalerts{
+    background:none;
+    color: white;
+
 }
-
-
-
-
-
 
 
 
