@@ -346,8 +346,8 @@ function htmlCodeExecute(value, o){
     `;
     
     document.querySelector('#main-content').insertAdjacentHTML('afterbegin',html);
+    
 }
-
 
 
 
