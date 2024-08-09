@@ -102,7 +102,7 @@ nav{
 }
 .menu a{
     text-decoration: none;
-    color: black;
+    /* color: black; */color: #3D52A0;
     font-weight: 700;
 }
 .menu-links a{
