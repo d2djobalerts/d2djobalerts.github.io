@@ -82,7 +82,7 @@ let menu_links = `
                 </div>              
                 <div class="menu-links">
                     <a href="https://d2djobalerts.github.io/index.html">IT/Non-IT JOBS</a>
-                    <a href="https://d2djobalerts.github.io/index.html">GOVT JOBS</a>
+                    <a href="https://d2djobalerts.github.io/government-jobs.html">GOVT JOBS</a>
                     <a href="https://d2djobalerts.github.io/free-certificates.html">FREE CERTIFICATES</a>
                     <a href="https://d2djobalerts.github.io/blogs/news/blogs-index.html">BLOGS</a>                   
                 </div>
