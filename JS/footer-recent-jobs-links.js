@@ -1,15 +1,15 @@
 
 const footer_job_links_display ={
     3:{
-        a_href:'https://d2djobalerts.github.io/deloitte-analyst.html',
+        a_href:'https://d2djobalerts.github.io/job-posting-pages/deloitte-analyst.html',
         text_value:'Deloitte is hiring for Analyst'
     },
     2:{
-        a_href:'https://d2djobalerts.github.io/accenture.html',
+        a_href:'https://d2djobalerts.github.io/job-posting-pages/accenture.html',
         text_value:'Accenture is hiring for Data Science Analytics Associate'
     },
     1:{
-        a_href:'https://d2djobalerts.github.io/google.html',
+        a_href:'https://d2djobalerts.github.io/job-posting-pages/google.html',
         text_value:'Google is hiring for Data Analyst'
     },
 }
